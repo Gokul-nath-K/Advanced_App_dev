@@ -1,12 +1,13 @@
 import React from "react";
+import About from "./About";
+import Event from "./Event";
 
 const Home = () => {
   return (
-    <div className="h-screen">
-      <div className="bg-[url('https://ik.imagekit.io/gokul/PartyEvent/wedding-1.jpg')] h-full">
-        Home
-      </div>
-    </div>
+    <>
+      <About />
+      <Event />
+    </>
   );
 };
 
